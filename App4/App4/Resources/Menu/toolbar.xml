@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".CarActivity"
+  >
+  <item
+    android:id="@+id/save"
+    android:showAsAction="always"
+    android:title="@string/save"/>
+  <item
+    android:id="@+id/multiplier"
+    android:showAsAction="always"
+    android:title="@string/multiplier"/>
+  <item
+    android:id="@+id/preview"
+    android:showAsAction="always"
+    android:title="@string/preview"/>
+  <item
+    android:id="@+id/data"
+    android:showAsAction="always"
+    android:title="@string/data"/>
+</menu>

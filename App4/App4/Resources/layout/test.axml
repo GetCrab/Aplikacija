@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true">
+  <android.support.v7.widget.Toolbar
+      android:id="@+id/toolbar"
+      android:layout_width="match_parent"
+      android:layout_height="?attr/actionBarSize"
+      android:background="?attr/colorPrimary"
+      app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+      app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+      android:contentInsetLeft="0dp"
+      android:contentInsetStart="0dp"
+      app:contentInsetLeft="0dp"
+      app:contentInsetStart="0dp"
+      android:contentInsetRight="0dp"
+      android:contentInsetEnd="0dp"
+      app:contentInsetRight="0dp"
+      app:contentInsetEnd="0dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+      <ImageButton
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:id="@+id/backButton"
+          android:src="@drawable/backimage"
+          android:scaleType="fitCenter"
+          android:adjustViewBounds="true"
+          android:background="@android:color/transparent"
+          android:layout_weight="0" />
+      <EditText
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:id="@+id/myEditText"
+          android:singleLine="true"
+          android:hint="@string/enterName"
+          android:background="@android:color/transparent"
+          android:textSize="@dimen/abc_text_size_medium_material"
+          android:textColor="@android:color/background_light"
+          android:focusable="true"
+          android:textStyle="bold"
+          android:inputType="textCapWords|textNoSuggestions"
+          android:layout_weight="1" />
+      <TextView
+          android:layout_width="60dp"
+          android:layout_height="match_parent"
+          android:id="@+id/txtPrice"
+          android:text="0€"
+          android:textSize="@dimen/abc_text_size_medium_material"
+          android:textColor="@android:color/background_light"
+          android:gravity="right|center"
+          android:layout_weight="0" />
+    </LinearLayout>
+  </android.support.v7.widget.Toolbar>
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageHelp" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnLL"
+        android:src="@drawable/carImageCroped"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:id="@+id/carImage" />
+    <LinearLayout
+        android:id="@+id/btnLL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="4dp">
+      <Button
+          android:text="@string/picture"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:id="@+id/picture"
+          android:background="@drawable/ButtonSignUpStyle"
+          android:layout_marginLeft="7dp" />
+      <Button
+          android:text="@string/info"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:id="@+id/btnInfo"
+          android:background="@drawable/ButtonSignUpStyle" />
+      <Button
+          android:text="@string/gallery"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:id="@+id/btnPicture"
+          android:background="@drawable/ButtonSignUpStyle"
+          android:layout_marginRight="7dp" />
+    </LinearLayout>
+    <!--<android.support.v4.view.ViewPager
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_below="@id/toolbar"
+            android:layout_above="@id/btnLL" />-->
+    <ProgressBar
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/progressBar1"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"
+        android:indeterminate="true"
+        android:progressTint="#fff0f8ff" />
+    <com.github.jlmd.animatedcircleloadingview.AnimatedCircleLoadingView
+        android:id="@+id/circle_loading_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:layout_centerInParent="true"
+        app:mainColor="#1565C0"
+        app:secondaryColor="#0D47A1"
+        android:layout_above="@id/circle_loading_view" />
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:id="@+id/tableLayout"
+        android:layout_alignLeft="@id/carImage"
+        android:layout_alignRight="@id/carImage"
+        android:layout_alignBottom="@id/carImage"
+        android:layout_alignTop="@id/carImage">
+      <TableRow
+          android:id="@+id/tableRow"
+          android:layout_height="0dp"
+          android:layout_width="match_parent"
+          android:layout_weight="1">
+        <Button
+            android:layout_height="match_parent"
+            android:id="@+id/tableSpace"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/holo_red_light" />
+      </TableRow>
+      <TableRow
+          android:id="@+id/tableRow"
+          android:layout_height="0dp"
+          android:layout_width="match_parent"
+          android:layout_weight="2">
+        <Space
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="0.7" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/button4"
+            android:layout_weight="2.18"
+            android:background="@android:color/holo_blue_bright" />
+        <Space
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="0.5" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/button8"
+            android:layout_weight="4.67"
+            android:background="@android:color/transparent" />
+        <Space
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="0.5" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/button8"
+            android:layout_weight="2.18"
+            android:background="@android:color/transparent" />
+        <Space
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="0.7" />
+      </TableRow>
+      <TableRow
+          android:id="@+id/tableRow"
+          android:layout_height="0dp"
+          android:layout_width="match_parent"
+          android:layout_weight="3">
+        <Space
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="0.8" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/button12"
+            android:layout_weight="2.48"
+            android:background="@android:color/holo_red_dark" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/button12"
+            android:layout_weight="1.08"
+            android:background="@android:color/holo_red_dark" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/button13"
+            android:layout_weight="3.3"
+            android:background="@android:color/transparent" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/button13"
+            android:layout_weight="1.09"
+            android:background="@android:color/transparent" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/button13"
+            android:layout_weight="2.48"
+            android:background="@android:color/transparent" />
+        <Space
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="0.8" />
+      </TableRow>
+      <TableRow
+          android:id="@+id/tableRow"
+          android:layout_height="0dp"
+          android:layout_width="match_parent"
+          android:layout_weight="4">
+        <Space
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="2.72"
+            android:id="@+id/space1" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/button14"
+            android:layout_weight="4.56"
+            android:background="@android:color/holo_purple" />
+        <Space
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="2.72"
+            android:id="@+id/space2"
+            android:layout_column="2" />
+      </TableRow>
+      <TableRow
+          android:id="@+id/tableRow"
+          android:layout_height="0dp"
+          android:layout_width="match_parent"
+          android:layout_weight="1">
+        <Button
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:id="@+id/badasda2"
+            android:background="@android:color/holo_red_dark" />
+      </TableRow>
+    </TableLayout>
+  </RelativeLayout>
+</LinearLayout>

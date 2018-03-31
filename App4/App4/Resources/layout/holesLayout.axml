@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#DEDEDC"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="300dp">
+    <Button
+        android:text="+"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"        
+        android:background="@drawable/ButtonSignUpStyle"
+        android:id="@+id/btnAdd"
+        android:layout_alignParentRight="true" />
+    <TextView
+        android:text="Medium Text"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/title"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_toLeftOf="@id/btnAdd"
+        android:layout_marginLeft="40dp"
+        android:textSize="20dp" />
+    <ListView
+        android:id="@+id/holesListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:divider="#1565C0"
+        android:footerDividersEnabled="false"
+        android:dividerHeight="4px" />
+</RelativeLayout>

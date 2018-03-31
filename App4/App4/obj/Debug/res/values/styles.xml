@@ -1,0 +1,1 @@
+<resources><style name="MyTheme" parent="Theme.AppCompat.Light"><item name="windowNoTitle">true</item><item name="windowActionBar">false</item><item name="colorPrimary">#222222</item></style></resources>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Paths>
+  <Jars>C:\Users\Filip\source\repos\App4\App4\obj\Debug\__library_projects__\AnimatedCircleLoadingView\library_project_imports\bin\classes.jar;C:\Users\Filip\source\repos\App4\App4\obj\Debug\__library_projects__\CircleButton\library_project_imports\bin\classes.jar;C:\Users\Filip\source\repos\App4\App4\obj\Debug\__library_projects__\PdfViewBinding\library_project_imports\bin\android-pdfview.jar;C:\Users\Filip\source\repos\App4\App4\obj\Debug\__library_projects__\Xamarin.Android.Support.Animated.Vector.Drawable\library_project_imports\bin\classes.jar;C:\Users\Filip\source\repos\App4\App4\obj\Debug\__library_projects__\Xamarin.Android.Support.Annotations\library_project_imports\support-annotations.jar;C:\Users\Filip\source\repos\App4\App4\obj\Debug\__library_projects__\Xamarin.Android.Support.Compat\library_project_imports\bin\classes.jar;C:\Users\Filip\source\repos\App4\App4\obj\Debug\__library_projects__\Xamarin.Android.Support.Core.UI\library_project_imports\bin\classes.jar;C:\Users\Filip\source\repos\App4\App4\obj\Debug\__library_projects__\Xamarin.Android.Support.Core.Utils\library_project_imports\bin\classes.jar;C:\Users\Filip\source\repos\App4\App4\obj\Debug\__library_projects__\Xamarin.Android.Support.Design\library_project_imports\bin\classes.jar;C:\Users\Filip\source\repos\App4\App4\obj\Debug\__library_projects__\Xamarin.Android.Support.Exif\library_project_imports\classes.jar;C:\Users\Filip\source\repos\App4\App4\obj\Debug\__library_projects__\Xamarin.Android.Support.Fragment\library_project_imports\bin\classes.jar;C:\Users\Filip\source\repos\App4\App4\obj\Debug\__library_projects__\Xamarin.Android.Support.Media.Compat\library_project_imports\bin\classes.jar;C:\Users\Filip\source\repos\App4\App4\obj\Debug\__library_projects__\Xamarin.Android.Support.Transition\library_project_imports\bin\classes.jar;C:\Users\Filip\source\repos\App4\App4\obj\Debug\__library_projects__\Xamarin.Android.Support.v4\library_project_imports\bin\classes.jar;C:\Users\Filip\source\repos\App4\App4\obj\Debug\__library_projects__\Xamarin.Android.Support.v7.AppCompat\library_project_imports\bin\classes.jar;C:\Users\Filip\source\repos\App4\App4\obj\Debug\__library_projects__\Xamarin.Android.Support.v7.CardView\library_project_imports\bin\classes.jar;C:\Users\Filip\source\repos\App4\App4\obj\Debug\__library_projects__\Xamarin.Android.Support.v7.RecyclerView\library_project_imports\bin\classes.jar;C:\Users\Filip\source\repos\App4\App4\obj\Debug\__library_projects__\Xamarin.Android.Support.Vector.Drawable\library_project_imports\bin\classes.jar</Jars>
+  <ResolvedResourceDirectories>
+    <ResolvedResourceDirectory>C:\Users\Filip\source\repos\App4\App4\obj\Debug\__library_projects__\AnimatedCircleLoadingView\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Filip\source\repos\App4\App4\obj\Debug\__library_projects__\CircleButton\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Filip\source\repos\App4\App4\obj\Debug\__library_projects__\FlexCel\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Filip\source\repos\App4\App4\obj\Debug\__library_projects__\PdfViewBinding\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Filip\source\repos\App4\App4\obj\Debug\__library_projects__\Xamarin.Android.Support.Design\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Filip\source\repos\App4\App4\obj\Debug\__library_projects__\Xamarin.Android.Support.Transition\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Filip\source\repos\App4\App4\obj\Debug\__library_projects__\Xamarin.Android.Support.v4\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Filip\source\repos\App4\App4\obj\Debug\__library_projects__\Xamarin.Android.Support.v7.AppCompat\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Filip\source\repos\App4\App4\obj\Debug\__library_projects__\Xamarin.Android.Support.v7.CardView\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Filip\source\repos\App4\App4\obj\Debug\__library_projects__\Xamarin.Android.Support.v7.RecyclerView\library_project_imports\res</ResolvedResourceDirectory>
+  </ResolvedResourceDirectories>
+  <ResolvedAssetDirectories>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\AnimatedCircleLoadingView\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\CircleButton\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\FlexCel\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\Xamarin.Android.Support.v4\library_project_imports\assets</ResolvedAssetDirectory>
+  </ResolvedAssetDirectories>
+  <ResolvedEnvironmentFiles />
+  <ResolvedResourceDirectoryStamps>
+    <ResolvedResourceDirectoryStamp>C:\Users\Filip\source\repos\App4\App4\obj\Debug\__library_projects__\AnimatedCircleLoadingView.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Filip\source\repos\App4\App4\obj\Debug\__library_projects__\CircleButton.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Filip\source\repos\App4\App4\obj\Debug\__library_projects__\FlexCel.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Filip\source\repos\App4\App4\obj\Debug\__library_projects__\PdfViewBinding.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Filip\source\repos\App4\App4\obj\Debug\__library_projects__\Xamarin.Android.Support.Design.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Filip\source\repos\App4\App4\obj\Debug\__library_projects__\Xamarin.Android.Support.Transition.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Filip\source\repos\App4\App4\obj\Debug\__library_projects__\Xamarin.Android.Support.v4.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Filip\source\repos\App4\App4\obj\Debug\__library_projects__\Xamarin.Android.Support.v7.AppCompat.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Filip\source\repos\App4\App4\obj\Debug\__library_projects__\Xamarin.Android.Support.v7.CardView.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Filip\source\repos\App4\App4\obj\Debug\__library_projects__\Xamarin.Android.Support.v7.RecyclerView.stamp</ResolvedResourceDirectoryStamp>
+  </ResolvedResourceDirectoryStamps>
+</Paths>
